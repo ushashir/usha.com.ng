@@ -29,17 +29,20 @@ class PageWrapper extends Component {
             <div style={{display: this.state.collapse ? '' : 'none'}} className="navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav text-uppercase ml-auto">
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/about">Me</Link>
+                  <Link className="nav-link js-scroll-trigger" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/work">Work</Link>
+                  <Link className="nav-link js-scroll-trigger" to="/about">About</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link js-scroll-trigger" to="/">Blog</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
                 </li>
-                <li className="nav-item" style={{}}>
-                  <Link className="nav-link js-scroll-trigger" style={{}} target="_blank" to="//drive.google.com/open?id=1u3uuCV_PCJRFYS7M63hUHTB8T561W6xh">Résumé</Link>
-              </li>
+                {/* <li className="nav-item" style={{}}>
+                  <Link className="nav-link js-scroll-trigger" style={{}} target="_blank" to="//drive.google.com/open?id=1u3uuCV_PCJRFYS7M63hUHTB8T561W6xh">Blog</Link>
+              </li> */}
               </ul>
             </div>
           </div>

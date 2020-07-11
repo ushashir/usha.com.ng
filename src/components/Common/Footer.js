@@ -6,6 +6,36 @@ function Footer() {
     <footer className="footer">
     <div className="container">
       <div className="row align-items-center">
+
+    
+          {/* menu links starts here */}
+        <div className="col-md-12 mt-4">
+          <ul className="list-inline footer-links">
+          
+          <li className="list-inline-item">
+              <Link className="btn btn-secondary" to="/">
+                Home
+              </Link>
+            </li>
+            <li className="list-inline-item">
+              <Link className="btn btn-secondary" to="/about">
+                About
+              </Link>
+            </li>
+            <li className="list-inline-item">
+              <Link className="btn btn-secondary" to="/">
+                Blog
+              </Link>
+            </li>
+            <li className="list-inline-item">
+              <Link className="btn btn-secondary" to="/contact">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* menu links starts here */}
         <div className="col-md-12">
           <ul className="list-inline social-buttons">
           <li className="list-inline-item">
@@ -24,8 +54,8 @@ function Footer() {
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link target="_blank" rel="noopener" to="//www.dev.to/truetechcode">
-                <i className="fab fa-dev"></i>
+              <Link target="_blank" rel="noopener" to="//www.facebook.com/ushashir">
+                <i className="fab fa-facebook"></i>
               </Link>
             </li>
             <li className="list-inline-item">
@@ -35,30 +65,14 @@ function Footer() {
             </li>            
           </ul>
         </div>
-        <div className="col-md-12 mt-4">
-          <ul className="list-inline footer-links">
-          <li className="list-inline-item">
-            <Link className="btn btn-secondary" target="_blank" rel="noopener" to="//drive.google.com/open?id=1u3uuCV_PCJRFYS7M63hUHTB8T561W6xh">
-            Résumé
-            </Link>
-          </li>
-          <li className="list-inline-item">
-              <Link className="btn btn-secondary" to="/about">
-                Me
-              </Link>
-            </li>
-            <li className="list-inline-item">
-              <Link className="btn btn-secondary" to="/work">
-                Work
-              </Link>
-            </li>
-            <li className="list-inline-item">
-              <Link className="btn btn-secondary" to="/contact">
-                Contact
-              </Link>
-            </li>
-          </ul>
+          <br />
+          <br />
+          <br />
+          
+        <div className="col-md-12 list-inline-item btn btn-secondary align-items-center" >
+        Designed by Ushahemba Shir
         </div>
+        
       </div>
     </div>
   </footer>

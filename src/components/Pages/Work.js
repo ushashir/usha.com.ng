@@ -1,28 +1,76 @@
 import React, { Component } from 'react'
 
 import PortfolioItem from "../Common/PortfolioItem";
-import Header from "../Common/Header";
+// import Header from "../Common/Header";
 
-import img4 from "../assets/img/portfolio/04-thumbnail.jpg";
-import img5 from "../assets/img/portfolio/05-thumbnail.png";
-import img6 from "../assets/img/portfolio/06-thumbnail.jpg";
+import img1 from "../assets/img/portfolio/1-contact-keeper.jpg";
+import img2 from "../assets/img/portfolio/2-github-finder.jpg";
+import img3 from "../assets/img/portfolio/3-abl.jfif";
+import img4 from "../assets/img/portfolio/4-usha.jpg";
+import img5 from "../assets/img/portfolio/5-afrogronics.jpg";
+import img6 from "../assets/img/portfolio/6-orji-sunday.jfif";
+import img7 from "../assets/img/portfolio/7-mech.jfif";
 
 const portfolio = [
-  {title: 'Portfolio Site', subtitle: 'My Portfolio Site designed with Twitter Bootstrap and build with React.js', image: img4, link: '/', github: ''},
-  {title: 'Property Listing', subtitle: 'Property Listing Landing Page designed with Twitter Bootstrap', image: img5, link: '//property-agent.terveraosu.now.sh/', github: '//github.com/truetechcode/property-listing-ui'},
-  {title: 'BattleShip Game', subtitle: 'A BattleShip Game build with JavaScript and bundled with Webpack', image: img6, link: '//rawcdn.githack.com/truetechcode/battleship-game/9768495e4e92db01a47aac64ca4ab17633435af0/dist/index.html', github: '//github.com/truetechcode/battleship-game'},
-  {title: 'Private Event', subtitle: 'A lite clone of Eventbrite designed with Twitter Bootstrap and build with Ruby on Rails', image: img4, link: '//young-retreat-43768.herokuapp.com/', github: '//github.com/truetechcode/private-events'}
+  {
+  title: 'Contact Keeper App', 
+  subtitle: 'A full stack App build with Node.js, React.js, Express and Mongo DB ', 
+  image: img1, 
+  link: '//contact-keep.herokuapp.com/login', 
+  github: '//github.com/ushashir/contact-keeper'
+},
+  {
+  title: 'Github Finder', 
+  subtitle: 'Github Finder app build with vanilla JavaScript', 
+  image: img2, 
+  link: '//5e2f1b268ac2c872204efa02--githubfindenawill.netlify.app/', 
+  github: '//github.com/ushashir/react_github_finder'
+},
+  {
+    title: 'Library Website', 
+    subtitle: 'Built with HTML5, CSS3, Boostrap4 and JavaScript.', 
+    image: img3, 
+    link: '//www.alexanderbernhardtlibrary.com/', 
+    github: '//github.com/ushashir/abl.com'
+  },
+  {
+    title: 'My PortFolio Site', 
+    subtitle: 'My portfolio site built with react and Twitter Boostrap', 
+    image: img4, 
+    link: ' ', 
+    github: '//github.com/ushashir/ushahembashir.com'
+  },
+  {
+    title: 'E-Commerce Site', 
+    subtitle: 'Online Store designed with Twitter Bootstrap and build with HTML5 and JavaScript', 
+    image: img5, 
+    link: '//ushashir.github.io/Afrogronics/', 
+    github: ''
+  },
+  {
+    title: 'Automobile Store', 
+    subtitle: 'Designed with Bootstrap4 and built with HTML5 and JavaScript', 
+    image: img6,
+    link: '//ushashir.github.io/nawill_orji/', 
+    github: '//github.com/ushashir/nawill_orji' 
+  },
+  {
+    title: 'Mechanic Store', 
+    subtitle: 'Designed with Bootstrap4 and built with HTML5 and JavaScript', 
+    image: img7, 
+    link: '//ushashir.github.io/Mechanic-site/', 
+    github: '//github.com/ushashir/Mechanic-site'
+  }
+  
 ]
 class Portfolio extends Component {
   render() {
     return (
       <>
-        <Header
-
-          title=""
-          subtitle="Portfolio"
-          showButton={false}
-        />
+        
+      <div>
+        
+      </div>
       <section className="bg-light page-section" id="portfolio">
       <div className="container">
         <div className="row">

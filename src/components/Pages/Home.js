@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from "../Common/Header";
-// import image from "../assets/img/map-image.png";
+// import image from "../assets/img/team/1.jpg";
 import "../../css/Home.css";
 
 //Re-usable components
@@ -11,9 +11,10 @@ class Home extends Component {
     return (
       <Header
         headerHeight={{height: `${h}px`}}
-        title="Working Remotely."
-        subtitle="Full Stack Web Developer."
-        buttonText="Hire Me!"
+      
+        title="Software Developer / Founder of Nawill"
+        subtitle="USHAHEMBA SHIR."
+        buttonText="Message me here!"
         link="/contact"
         showButton={true}
       />
