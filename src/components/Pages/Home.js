@@ -13,7 +13,7 @@ class Home extends Component {
         headerHeight={{height: `${h}px`}}
       
         title="Software Developer / Founder of Nawill"
-        subtitle="USHAHEMBA SHIR."
+        subtitle="USHAHEMBA SHIR"
         buttonText="Message me here!"
         link="/contact"
         showButton={true}

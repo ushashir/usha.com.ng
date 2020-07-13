@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Field from "./Field";
 
 const fields = {
@@ -58,7 +58,7 @@ const {onChangeEvent, onSubmitEvent} = props
       })}
       <div className="clearfix"></div>
       <div className="col-lg-12 text-center">
-    <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" disabled={disabled} type="submit">{buttonValue}</button>
+    <button id="sendMessageButton" className="btn btn-success btn-xl text-uppercase" disabled={disabled} type="submit">{buttonValue}</button>
       </div>
     </div>
   </form>

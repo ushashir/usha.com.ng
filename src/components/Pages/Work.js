@@ -35,7 +35,7 @@ const portfolio = [
   },
   {
     title: 'My PortFolio Site', 
-    subtitle: 'My portfolio site built with react and Twitter Boostrap', 
+    subtitle: 'My portfolio site, designed with Twitter Boostrap built with React', 
     image: img4, 
     link: ' ', 
     github: '//github.com/ushashir/ushahembashir.com'
@@ -48,7 +48,7 @@ const portfolio = [
     github: ''
   },
   {
-    title: 'Automobile Store', 
+    title: 'Client Portfolio', 
     subtitle: 'Designed with Bootstrap4 and built with HTML5 and JavaScript', 
     image: img6,
     link: '//ushashir.github.io/nawill_orji/', 

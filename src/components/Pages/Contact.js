@@ -56,7 +56,7 @@ class Contact extends Component {
         sent: 'sending'
       })
 
-      emailjs.send('gmail', 'template_2ONpqFsc', templateParams, 'user_DDjkEndKnf48LeUH32iGh')
+      emailjs.send('gmail', 'template_cJaDt3lL', templateParams, 'user_ijdS2pAy9Y4kPjCYtCZxS')
       .then((result) => {
         this.setState({
           sent: 'success'

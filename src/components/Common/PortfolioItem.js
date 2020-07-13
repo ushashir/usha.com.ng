@@ -17,7 +17,7 @@ class PortfolioItem extends Component {
           <h4>{this.props.title}</h4>
           <p className="text-muted">{this.props.subtitle}</p>
           <div className="d-flex flex-row justify-content-between my-flex-container">
-          <Link target="_blank" rel="noopener" to={this.props.link} className="btn btn-primary my-flex-item">Demo</Link>
+          <Link target="_blank" rel="noopener" to={this.props.link} className="btn btn-success my-flex-item">Demo</Link>
           <Link target="_blank" rel="noopener" to={this.props.github} className="btn btn-danger my-flex-item">Code</Link>
           </div>
         </div>
