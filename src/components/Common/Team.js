@@ -25,7 +25,7 @@ class Team extends Component {
             <div className="col-sm-12 col-md-12 col-lg-8 bg-light">
               <p className="large text-muted about-desc"><span className="btn btn-secondary about-desc-title">My Resume: </span>
               <span className="btn-group ml-two"><span className="btn btn-light"> 
-              <a href="https://drive.google.com/file/d/10psqL2IXCCDRKX_WcD6ioLP4oPh2SGgi/view?usp=sharing"  target="_blank" rel="noopener">On Click</a> </span>  </span></p>  
+              <a href="https://drive.google.com/file/d/1tgIMZyuSMzq_Goqw9_plFqnR1dBAyDkJ/view?usp=sharing"  target="_blank" rel="noopener">On Click</a> </span>  </span></p>  
               <p className="large text-muted about-desc"><span className="btn btn-secondary about-desc-title">Skills: </span>
               <span className="btn-group ml-two"><span className="btn btn-success">HTML5</span> 
               <span className="btn btn-success">CSS3</span>  
@@ -56,17 +56,9 @@ class Team extends Component {
         <div className="row">
           <div className="col-lg-8 mx-auto text-center">
           <h2 className="section-heading text-uppercase">WHAT DRIVES ME</h2>
-            <p className="large text-muted"> What drives me is the desire to build sustainable solutions across all spheres
-            of human challenges, my geographic focus been Sub-Saharan Africa. </p>
-
-            <p className="large text-muted"> I believe the right marriage between
-             Information Technology, Big Data and Artificial Intelligence will do wonders for mankind. </p>
-
-            <p className="large text-muted"> We are already at the early beginnings of this era, one can only imagine
-            what the future holds. I am excited being a player in this domain. I am committed to pursuing this noble course with due deligence</p>
-
-            <p className="large text-muted"> I am open to collaboration with like minds on individual and corporate levels. Get in touch let's change the
-            world for good </p>
+            <h4>What drives me is the desire to build sustainable solutions across
+             all spheres of human challenges.</h4>  
+              
           </div>
         </div>
 

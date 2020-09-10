@@ -16,7 +16,7 @@ function App() {
       <PageWrapper>
         
         <Route exact={true} path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/work" component={Work} />
 

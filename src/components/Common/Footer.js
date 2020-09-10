@@ -18,8 +18,8 @@ function Footer() {
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link className="btn btn-secondary" to="/about">
-                About
+              <Link className="btn btn-secondary" to="/portfolio">
+                Portfolio
               </Link>
             </li>
             <li className="list-inline-item">
@@ -31,6 +31,9 @@ function Footer() {
               <Link className="btn btn-secondary" to="/contact">
                 Contact
               </Link>
+            </li>
+            <li className="list-inline-item">  
+              <a className="btn btn-secondary" href="https://drive.google.com/file/d/1tgIMZyuSMzq_Goqw9_plFqnR1dBAyDkJ/view?usp=sharing"  target="_blank" rel="noopener">Resume</a>
             </li>
           </ul>
         </div>
