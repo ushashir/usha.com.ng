@@ -11,23 +11,19 @@ class About extends Component {
       <div>
         <Header
 
-          title="Software Developer [ MERN Stack ] "
+          title="Software Developer"
           subtitle="USHAHEMBA SHIR"
           showButton={false}
           // image={image}
         />
-
         <Team />
-
         <div className="container ">
           <div className="row">
             <div className="col-lg-8 mx-auto text-center">
               <div>
-
               </div>
-            <h1 >PORTFOLIO</h1>
+            <h1 >TOP RECENT PROJECTS</h1>
             </div>
-
           </div>
             
         </div>

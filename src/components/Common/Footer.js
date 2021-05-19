@@ -23,7 +23,7 @@ function Footer() {
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link className="btn btn-secondary" to="/">
+              <Link className="btn btn-secondary" rel="noopener" to="//ushahembashir.com/blog/">
                 Blog
               </Link>
             </li>
@@ -33,7 +33,8 @@ function Footer() {
               </Link>
             </li>
             <li className="list-inline-item">  
-              <a className="btn btn-secondary" href="https://drive.google.com/file/d/1tgIMZyuSMzq_Goqw9_plFqnR1dBAyDkJ/view?usp=sharing"  target="_blank" rel="noopener">Resume</a>
+              <a className="btn btn-secondary" href="https://drive.google.com/file/d/1HmxIzBwKxM21OncZXDygTmUKCVP0-M8O/view?usp=sharing"  target="_blank" rel="noopener">
+                Resume</a>
             </li>
           </ul>
         </div>
@@ -65,7 +66,12 @@ function Footer() {
               <Link target="_blank" rel="noopener" to="//stackoverflow.com/users/11306350/ushahemba-shir">
                 <i className="fab fa-stack-overflow" aria-hidden={true}></i>
               </Link>
-            </li>            
+            </li>  
+            <li className="list-inline-item">
+              <Link target="_blank" rel="noopener" to="//youtube.com/channel/UCggoM2vJLpUE2U_UOak1a7w">
+                <i className="fab fa-youtube" aria-hidden={true}></i>
+              </Link>
+            </li>          
           </ul>
         </div>
           <br />

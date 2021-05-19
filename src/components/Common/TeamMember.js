@@ -34,6 +34,11 @@ function TeamMember(props) {
             <i className="fab fa-stack-overflow"></i>
           </Link>
         </li>
+        <li className="list-inline-item">
+          <Link target="_blank" rel="noopener" to={props.youtube}>
+            <i className="fab fa-youtube"></i>
+          </Link>
+        </li>
       </ul>
     </div>
   </div>

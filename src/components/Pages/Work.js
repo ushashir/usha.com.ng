@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import PortfolioItem from "../Common/PortfolioItem";
 // import Header from "../Common/Header";
 
+import img0 from "../assets/img/portfolio/0.jpg";
 import img1 from "../assets/img/portfolio/1-contact-keeper.jpg";
 import img8 from "../assets/img/portfolio/8-book-keeper.jpg";
 import img2 from "../assets/img/portfolio/2-github-finder.jpg";
@@ -14,6 +15,13 @@ import img7 from "../assets/img/portfolio/7-mech.jfif";
 
 const portfolio = [
   {
+  title: 'Business Website', 
+  subtitle: 'A standard business website build from scratch with HTML, CSS and JavaScript', 
+  image: img0, 
+  link: '//knowledgebeyond.net/', 
+  github: '//github.com/ushashir/knowledgebeyound.com'
+},
+{
   title: 'Contact Keeper App', 
   subtitle: 'A full stack App build with Node.js, React.js, Express and Mongo DB ', 
   image: img1, 
@@ -75,9 +83,7 @@ class Portfolio extends Component {
   render() {
     return (
       <>
-        
       <div>
-        
       </div>
       <section className="bg-light page-section" id="portfolio">
       <div className="container">
