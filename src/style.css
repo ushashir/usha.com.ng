@@ -36,6 +36,7 @@ nav {
     z-index: 998;
     transition: all 0.3s ease;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #ffff;
 }
 
 nav.sticky {
@@ -130,15 +131,12 @@ nav.sticky .menu-btn {
 .home {
     height: 100vh;
     width: 100%;
-    /* background: url("/src/img/cv-now.jpeg") no-repeat; */
     background: #ddeaf1;
-    /* background: linear-gradient(lightgreen, skyblue); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
-
 
 
 .home .home-content {
@@ -219,7 +217,7 @@ section .content {
 
 section .title {
     display: flex;
-    justify-content: center;
+  
     margin-bottom: 40px;
 }
 
@@ -305,129 +303,9 @@ section .button button:hover {
     color: #3b7080;
 }
 
-/* My Skills CSS */
-.skills {
-    background: #F0F8FF;
-}
-
-.skills .content {
-    padding: 40px 0;
-}
-
-.skills .skills-details {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.skills-details .text {
-    width: 50%;
-}
-
-.skills-details p {
-    color: #0E2431;
-    text-align: justify;
-}
-
-
-.skills-details .boxes {
-    width: 45%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.skills-details .box {
-    width: calc(100% / 2 - 20px);
-    margin: 20px 0;
-}
-
-.skills-details .boxes .topic {
-    font-size: 20px;
-    color: #3b7080;
-}
-
-.skills-details .boxes .per {
-    font-size: 60px;
-    color: #3b7080;
-}
-
-/* My projects CSS */
-.services .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.project-buttons {
-    padding: 4px;
-}
-
-.project-buttons button {
-    /* size: 5ch; */
-    padding: 10px;
-
-}
-
-.services .boxes .box {
-    margin: 20px 0;
-    width: calc(100% / 3 - 20px);
-    text-align: center;
-    border-radius: 12px;
-    padding: 30px 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-    cursor: default;
-    transition: all 0.4s ease;
-}
-
-.services .boxes .box:hover {
-    background: #3b7080;
-    color: #fff;
-}
-
-.services .boxes .box .icon {
-    height: 50px;
-    width: 50px;
-    background: #3b7080;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 50px;
-    font-size: 18px;
-    color: #fff;
-    margin: 0 auto 10px auto;
-    transition: all 0.4s ease;
-}
-
-.boxes .box:hover .icon {
-    background-color: #fff;
-    color: #3b7080;
-}
-
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p {
-    color: #0E2431;
-    transition: all 0.4s ease;
-}
-
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p {
     color: #fff;
-}
-
-/* Contact Me CSS */
-.contact {
-    background: #F0F8FF;
-}
-
-.contact .content {
-    margin: 0 auto;
-    padding: 30px 0;
-}
-
-.contact .text {
-    width: 80%;
-    text-align: center;
-    margin: auto;
 }
 
 /* Footer CSS */
